@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "trabajoPractico2024:lib"
+
+    - path: "./test"
+      component: "trabajoPractico2024:test:trabajoPractico2024-test"
