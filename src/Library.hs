@@ -121,6 +121,9 @@ superPista = [
     boxes $ recta 800 
     ]
 
+--7 TBD
+
+--8
 myPrecious :: [(a1, b -> Number)] -> ((a1, b -> Number) -> [a2], b) -> Number
 myPrecious ts x = 
     sum . map (($ snd x) . snd) . filter ((>5) . length . fst x) $ ts
